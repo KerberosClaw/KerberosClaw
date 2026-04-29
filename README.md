@@ -1,4 +1,4 @@
-# KerberosClaw
+# KerberosClaw 🐾
 
 **IoT × AI Agent × Harness Engineering**
 
