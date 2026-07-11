@@ -24,8 +24,16 @@
 | [kc_claude_harness](https://github.com/KerberosClaw/kc_claude_harness) | Meta-repo：把這幾個 repo 用 manifesto 跟 dotfiles 黏在一起 |
 | [kc_ai_skills](https://github.com/KerberosClaw/kc_ai_skills) | 做到懶得再手動做的事，包成 skills + 4 個攔截手滑用的 hook |
 | [kc_pm_kit](https://github.com/KerberosClaw/kc_pm_kit) | 兩個 prompt-driven skill：把會議記錄一路推進 Azure DevOps，省下 PM 一個下午 |
+| [kc_agent_persona_pack](https://github.com/KerberosClaw/kc_agent_persona_pack) | 讓 AI agent 換 session 還記得自己是誰 — 純讀文件維持人格，不 fine-tune |
 | [kc_claude_memory_sync](https://github.com/KerberosClaw/kc_claude_memory_sync) | SSH + git bare repo，讓 Claude 在多台機器都記得我是誰 |
 | [kc_llm_wiki_starter](https://github.com/KerberosClaw/kc_llm_wiki_starter) | Karpathy 的三層 wiki pattern（raw/wiki/schema），LLM 自己當小編 |
+
+## LLM Failure & Safety
+
+| Project | One-liner |
+|---------|-----------|
+| [kc_text2sql_failure_lab](https://github.com/KerberosClaw/kc_text2sql_failure_lab) | Executable ≠ Correct — SQL 跑得動 ≠ 答對，一間專抓 Text-to-SQL 語意錯的實驗室 |
+| [kc_llm_jailbreak_test_kit](https://github.com/KerberosClaw/kc_llm_jailbreak_test_kit) | 同一個 jailbreak 殼丟給 ChatGPT / Claude / Gemini 各自怎麼破 — 附可複現 mock prompts 測你自家 LLM |
 
 ## Side / Lab
 
@@ -33,8 +41,13 @@
 |---------|-----------|
 | [kc_smart_lamp](https://github.com/KerberosClaw/kc_smart_lamp) | 自己做一盞 USB 供電的 BLE 桌燈，不要 app、不要雲、不要 vendor 綁架 |
 | [kc_pet_analyzer](https://github.com/KerberosClaw/kc_pet_analyzer) | 用獸醫行為學分析貓的行為，取代偽科學寵物溝通師 |
+| [kc_locspoof](https://github.com/KerberosClaw/kc_locspoof) | 從 macOS 改 iPhone GPS 座標、免越獄 — Swift daemon + Web UI 全鏈路打通 |
 | [kc_job_radar](https://github.com/KerberosClaw/kc_job_radar) | 104 職缺雷達 — 自動搜、去重、Gmail 監聽、Telegram 推播，比我自己滑網頁勤勞 |
+
+## Write-ups
+
+- [對話錄音 → 分色字幕影片產線](https://gist.github.com/KerberosClaw/adcaf49ec692593006556494d160708d) — 一支麥錄「你 × AI 語音對談」換掉本聲 + 上你/AI 分色字幕。踩坑重點：ASR 時間碼估歪 ~3 秒 → 用 RMS 能量掃描驗 ground truth → 挖出「兩人聲音 overlap」才是換聲拆不乾淨的根因 → 收斂成一套錄音紀律。
 
 ## Tech
 
-MQTT, Modbus, CoAP, BLE, Webhook | Python, FastAPI, FastMCP | RAG, ChromaDB, Gradio | Docker, MCP, Ollama | Claude Code (skills, hooks, agents)
+MQTT, Modbus, CoAP, BLE, Webhook | Python, FastAPI, FastMCP | RAG, ChromaDB, Gradio | Whisper ASR, Seed-VC, ffmpeg, PIL | Docker, MCP, Ollama | Claude Code (skills, hooks, agents)
