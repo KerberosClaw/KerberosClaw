@@ -34,6 +34,7 @@
 |---------|-----------|
 | [kc_text2sql_failure_lab](https://github.com/KerberosClaw/kc_text2sql_failure_lab) | Executable ≠ Correct — SQL 跑得動 ≠ 答對，一間專抓 Text-to-SQL 語意錯的實驗室 |
 | [kc_llm_jailbreak_test_kit](https://github.com/KerberosClaw/kc_llm_jailbreak_test_kit) | 同一個 jailbreak 殼丟給 ChatGPT / Claude / Gemini 各自怎麼破 — 附可複現 mock prompts 測你自家 LLM |
+| [kc_llm_lazy_thinking_lab](https://github.com/KerberosClaw/kc_llm_lazy_thinking_lab) | 叫 AI「自己想、show your work」真的會變快嗎？四模型控制實驗：全部變慢，「快」的答案其實是提早放棄 |
 
 ## Side / Lab
 
