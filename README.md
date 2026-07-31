@@ -45,6 +45,7 @@
 | [kc_pet_analyzer](https://github.com/KerberosClaw/kc_pet_analyzer) | 用獸醫行為學分析貓的行為，取代偽科學寵物溝通師 |
 | [kc_locspoof](https://github.com/KerberosClaw/kc_locspoof) | 從 macOS 改 iPhone GPS 座標、免越獄 — Swift daemon + Web UI 全鏈路打通 |
 | [kc_wherebear_oss](https://github.com/KerberosClaw/kc_wherebear_oss) | 自架個人位置平台 — 手機低頻回報「我大概在哪」到自己的 Supabase，本地 bridge 撈成 JSON 餵下游；拒絕連續高精度追蹤、省電優先 |
+| [kc_healthsteps_oss](https://github.com/KerberosClaw/kc_healthsteps_oss) | 沒開過 Xcode 也能有一支自己的 iOS app — 簽章跟插線你來、Swift 交給 Claude Code；刻意不給你 clone，你自己長一支 |
 | [kc_job_radar](https://github.com/KerberosClaw/kc_job_radar) | 104 職缺雷達 — 自動搜、去重、Gmail 監聽、Telegram 推播，比我自己滑網頁勤勞 |
 
 ## Write-ups
