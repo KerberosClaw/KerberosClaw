@@ -25,6 +25,7 @@
 | [kc_ai_skills](https://github.com/KerberosClaw/kc_ai_skills) | 做到懶得再手動做的事，包成 skills + 4 個攔截手滑用的 hook |
 | [kc_pm_kit](https://github.com/KerberosClaw/kc_pm_kit) | 兩個 prompt-driven skill：把會議記錄一路推進 Azure DevOps，省下 PM 一個下午 |
 | [kc_agent_persona_pack](https://github.com/KerberosClaw/kc_agent_persona_pack) | 讓 AI agent 換 session 還記得自己是誰 — 純讀文件維持人格，不 fine-tune |
+| [kc_agent_a2a](https://github.com/KerberosClaw/kc_agent_a2a) | 從 persona pack 長出的群聊技術預覽：紙條、夜聊、Discord Party，再把聊天經歷帶回主人格；原來連 AI 聚會都要顧帳本 |
 | [kc_proactive_poke](https://github.com/KerberosClaw/kc_proactive_poke) | 讓 AI 不等你開口 — 定期自己判斷有沒有值得說的事，然後大多數時候決定閉嘴 |
 | [kc_claude_memory_sync](https://github.com/KerberosClaw/kc_claude_memory_sync) | SSH + git bare repo，讓 Claude 在多台機器都記得我是誰 |
 | [kc_llm_wiki_starter](https://github.com/KerberosClaw/kc_llm_wiki_starter) | Karpathy 的三層 wiki pattern（raw/wiki/schema），LLM 自己當小編 |
